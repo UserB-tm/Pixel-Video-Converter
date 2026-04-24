@@ -1,13 +1,21 @@
 # Pixel Video Converter
 
-A simple tool for converting Google Pixel HEVC videos into MP4 format for broader compatibility with Windows apps and devices.
+A simple tool that converts Google Pixel HEVC videos to MP4, ensuring broader compatibility with Windows apps and devices. This app is designed to be portable, i.e., you can copy the contents of this repo to a USB drive, a folder on your computer, or where ever, and run `Pixel Video Converter.exe`. 
 
 ## How to use
 
-1. **Run the app**: Double-click `Pixel Video Converter.exe`
-2. **Select your video**: The app will prompt you to browse for a video file to convert
-3. **Wait for conversion**: The app re-encodes your video in the background
-4. **Choose save location**: After conversion completes, the app will ask where to save the file and what to name it
+1. **Get the App**:
+   - Click the green **Code** button at the top right of this page.
+   - Select **Download ZIP**.
+   - Once downloaded, open the ZIP file and drag the contents to a folder on your computer (like your Desktop or Documents).
+
+2. **Run the app**: Double-click `Pixel Video Converter.exe`.
+
+3. **Select your video**: The app will prompt you to browse for a video file to convert.
+
+4. **Wait for conversion**: The app re-encodes your video in the background.
+
+5. **Choose save location**: After conversion completes, the app will ask where to save the file and what to name it.
 
 The app automatically remembers the location of `ffmpeg.exe` after the first run, so no additional setup is needed.
 
