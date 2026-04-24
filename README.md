@@ -1,0 +1,33 @@
+# Pixel Video Converter
+
+A simple tool for converting Google Pixel HEVC videos into MP4 format for broader compatibility with Windows apps and devices.
+
+## How to use
+
+1. **Run the app**: Double-click `Pixel Video Converter.exe`
+2. **Select your video**: The app will prompt you to browse for a video file to convert
+3. **Wait for conversion**: The app re-encodes your video in the background
+4. **Choose save location**: After conversion completes, the app will ask where to save the file and what to name it
+
+The app automatically remembers the location of `ffmpeg.exe` after the first run, so no additional setup is needed.
+
+## What it does
+
+- Converts Google Pixel HEVC video to H.264 video codec
+- Converts audio to AAC format for maximum Windows compatibility
+- Works from a USB drive or local installation
+- No installation required—just run the `.exe`
+
+## Windows SmartScreen warning
+
+You may see a Windows SmartScreen warning when running the app for the first time. This is normal for unsigned portable applications. Click "More info" and then "Run anyway" to proceed.
+
+## Technical details
+
+**Video codec**: H.264  
+**Audio codec**: AAC (192 kbps)  
+**Output format**: MP4 with optimizations for quick playback start
+
+## License notes
+
+This folder includes `ffmpeg.exe` and related files. Make sure to include the corresponding ffmpeg license files with any distribution.
